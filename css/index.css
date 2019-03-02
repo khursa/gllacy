@@ -1,0 +1,52 @@
+@import url(header.css);
+@import url(footer.css);
+
+
+/* GENERAL STYLES */
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+
+    background-color: #849d8f;
+}
+
+.root {
+    max-width: 1460px;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 52px;
+}
+
+button {
+    border: none;
+
+    background-color: transparent;
+}
+
+.main-header,
+.main-header-navigation,
+.main-navigation__list,
+.main-header-form,
+.profile-nav__list,
+.main-footer,
+.social__list,
+.main-footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-navigation__list,
+.profile-nav__list,
+.social__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
